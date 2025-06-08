@@ -9,10 +9,10 @@ const __dirname = dirname(__filename);
 
 const app = express();
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public2")));
+app.use(express.static(path.join(__dirname, "Front_end")));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public2", "data-project1.html"));
+  res.sendFile(path.join(__dirname, "Front_end", "data-project1.html"));
 });
 
 const invertedIndex = new Map();
