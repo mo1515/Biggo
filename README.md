@@ -7,3 +7,5 @@ Web Crawling & Ranking: Implemented in Python, responsible for collecting and pr
 Indexing: An inverted index is constructed using MapReduce (Java).
 
 Backend: The search backend is built with Node.js, providing fast and responsive query processing and result retrieval.
+
+Frontend: A simple, user-friendly web interface built with HTML, CSS, and JavaScript to allow users to search and view ranked results efficiently with multiple views.
